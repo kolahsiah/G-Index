@@ -4,9 +4,9 @@ var authConfig = {
   // Only material!
   theme: 'material', // material  classic
    //add themes color, darkmode
-  main_color: '', // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime yellow | amber orange | deep-orange | brown | greyblue-grey
+  main_color: 'pink', // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime yellow | amber orange | deep-orange | brown | greyblue-grey
   accent_color: '', // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange
-  dark_theme: false, // true for dark theme
+  dark_theme: true, // true for dark theme
   // client_id & client_secret - Please use your own!
   client_id: '',
   client_secret: '',
@@ -28,20 +28,20 @@ var authConfig = {
   // It is possible to set only the password, only the user name, and the user name and password at the same time
   roots: [
     {
-      id: '',
+      id: '',  // root_id 01
       name: 'Sample1',
       user: 'admin',
       pass: ''
     },
     {
-      id: 'drive_id',
+      id: 'drive_id',  // root_id 02
       name: 'Sample2',
       user: 'admin2',
       pass: 'index',
       protect_file_link: true
     },
     {
-      id: 'folder_id',
+      id: 'folder_id',  // root_id 03
       name: 'Sample3',
       user: 'admin3',
       pass: 'index2',
